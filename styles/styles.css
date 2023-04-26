@@ -146,7 +146,6 @@ color: rgb(255, 255, 255);
     grid-template-areas:
         "cuadro1 frase frase cuadro4"
         "cuadro5  cuadro2 cuadro3 cuadro6 ";
-        margin: 0rem;
         gap: 1rem;
        
 }
@@ -195,7 +194,7 @@ color: rgb(255, 255, 255);
 .frase h3 {
     font-family: 'Righteous', cursive;
     color: rgb(230, 230, 233);
-    opacity: .7;
+    opacity: .8;
     font-size: 2.5rem;
     padding: 1rem;
     
@@ -252,28 +251,7 @@ color: rgb(255, 255, 255);
         font-size: 4rem;
     }
 
-    .menu {
-
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .menu li a {
-        padding: 1rem;
-        text-align: center;
-        font-size: 0.8rem;
-
-
-    }
-
-    .menu li {
-        padding: 1rem;
-        text-align: center;
-
-
-    }
+  
     .cuadros {
         display: flex;
         flex-direction: column;
@@ -299,11 +277,11 @@ color: rgb(255, 255, 255);
     .cont-video video{
       object-fit: cover;
       object-position:center;
-      height: 70vh;
+      height: 80vh;
      
     }
     }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .logo {
         display: flex;
         align-items: center;
@@ -344,9 +322,11 @@ color: rgb(255, 255, 255);
     .cont-video video{
       object-fit: cover;
       object-position:center;
-      height: 50vh;
+      min-height: 80vh;
      
     }
+
+    
   
     
 
@@ -368,31 +348,9 @@ color: rgb(255, 255, 255);
     }
 
     .titulo h1 {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 
-    .menu {
-
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .menu li a {
-        padding: 0.1rem;
-        text-align: center;
-        font-size: 0.8rem;
-
-
-    }
-
-    .menu li {
-        padding: 0.3rem;
-        text-align: center;
-
-
-    }
     .cuadros {
         display: flex;
         flex-direction: column;
@@ -411,53 +369,48 @@ color: rgb(255, 255, 255);
         border: 0.4rem solid rgb(40, 40, 40);
        
     }
+   
     .cont-video video{
-      object-fit: cover;
-      object-position:center;
-      height: 50vh;
-     
-    }
+        object-fit: cover;
+        object-position:center;
+        height: 10vh
+      }
     
-
+    
 
 }
 
 
-
-
+@media screen and (max-width: 412px){
+    .logo img {
+        max-height: 10rem;
+    }
+    .cont-video video{
+        object-fit: cover;
+        object-position:center;
+        height: 10vh;
+       
+      }
+       .fp{
+      font-size: 0.6rem;
+      }
+}
 
 
 
 @media screen and (max-width: 375px) {
     .logo img {
-        max-height: 8rem;
+        max-height: 5rem;
     }
 
     .titulo h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
-    .menu {
+   
 
-        padding: 0;
-        align-items: center;
-        justify-content: center;
+   
 
-    }
-
-    .menu li a {
-        padding: 0.2rem;
-        text-align: center;
-        font-size: 0.8rem;
-
-
-    }
-
-    .menu li {
-        padding: 0.2rem;
-        text-align: center;
-
-
-    }
+    
  
 }
