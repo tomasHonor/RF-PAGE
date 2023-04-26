@@ -71,34 +71,29 @@ header {
 
 }
 
-.menu {
-    display: flex;
-    background-color: rgb(244, 244, 244);
-    justify-content: space-around;
-    padding: 1.5rem;
-    list-style-type: none;
+
+.navh{
     border-top: 0.3rem solid black;
-    margin: 0;
-
-
-
-
 }
 
-
-.menu li a {
-    text-decoration: none;
-    padding: 1.5rem;
-    font-weight: bold;
-    color: rgb(1, 1, 1);
-    border-radius: 8%;
-}
-
-.menu li a:hover {
-    background-color: rgb(183, 21, 0);
-    color: rgb(255, 255, 255);
+.menuh{
+    flex-grow: 1;
 
 }
+.menuh a{
+    border-radius: 5%;
+    padding: 1rem;
+    color: black;
+}
+.menuh a:hover{
+background-color:rgb(183, 21, 0) ;
+color: rgb(255, 255, 255);
+}
+.al-item{
+    align-items: center;
+}
+    
+
 /* ANIMACIONES H1 */
 
 @keyframes animacionx {
@@ -222,12 +217,10 @@ header {
 /* ------------------------------------------------- */
 
 
-.footer2 a{
-    text-decoration: none;
-    align-content: center;
-}
+
 .alineacion{
     text-decoration: none;
+   
     
 }
 
@@ -321,36 +314,15 @@ header {
     }
 
     .logo img {
-        max-height: 6em;
+        max-height: 6rem;
        
     }
 
     .titulo h1 {
-        font-size: 3rem;
-    }
-
-    .menu {
-
+        font-size: 3em;
         padding: 0;
-        align-items: center;
-        justify-content: center;
-
     }
-
-    .menu li a {
-        padding: 0.6rem;
-        text-align: center;
-        font-size: 0.8rem;
-
-
-    }
-
-    .menu li {
-        padding: 0.5rem;
-        text-align: center;
-
-
-    }
+   
     .cuadros {
         display: flex;
         flex-direction: column;
