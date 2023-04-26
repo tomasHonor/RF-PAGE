@@ -81,7 +81,7 @@ header {
 
 }
 .menuh a{
-    border-radius: 5%;
+    border-radius: 2%;
     padding: 1rem;
     color: black;
 }
@@ -110,15 +110,13 @@ color: rgb(255, 255, 255);
 /* -------------------------------------------------------- */
 
 
-/* ---------------------------------------------------- */
-
 .cont-principal
 
 .cont-video{
  padding: 0;
 }
 .cont-video video {
-   max-height:78vh;
+   max-height:80vh;
     object-fit: cover;
     border-bottom: 6px solid rgb(40, 40, 40);
     
@@ -243,7 +241,7 @@ color: rgb(255, 255, 255);
     }
 
     .logo img {
-        max-height: 8rem;
+        max-height: 10rem;
        
     }
 
@@ -259,7 +257,7 @@ color: rgb(255, 255, 255);
      
     }
     .frase {
-        padding: 0;
+        padding: 2rem;
         order:-1 ;
        
        
@@ -292,39 +290,32 @@ color: rgb(255, 255, 255);
     }
 
     .logo img {
-        max-height: 6rem;
+        max-height: 10rem;
        
     }
 
     .titulo h1 {
         font-size: 3em;
-        padding: 0;
+        padding: 1rem;
     }
    
-    .cuadros {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-     
-    }
-    .frase {
-        padding: 0;
-        order:-1 ;
-        min-height: 25vh;
-       
-    }
+   
+  
    
     .marco{
         border-radius: 1%;
-        border: 0.35rem solid rgb(40, 40, 40);
+        border: 0.5rem solid rgb(0, 0, 0);
        
     }
     .cont-video video{
       object-fit: cover;
       object-position:center;
-      min-height: 80vh;
+      min-height: 60vh;
      
     }
+    .fp{
+        font-size: 0.6rem;
+        }
 
     
   
@@ -348,64 +339,35 @@ color: rgb(255, 255, 255);
     }
 
     .titulo h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
-    .cuadros {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-     
-    }
-    .frase {
-        padding: 0;
-        order:-1 ;
-        min-height: 25vh;
-       
-    }
    
-    .marco{
-        border-radius: 1%;
-        border: 0.4rem solid rgb(40, 40, 40);
-       
-    }
    
-    .cont-video video{
-        object-fit: cover;
-        object-position:center;
-        height: 10vh
-      }
-    
-    
+  
+    .fp{
+        font-size: 0.6rem;
+        }
 
 }
 
 
-@media screen and (max-width: 412px){
-    .logo img {
-        max-height: 10rem;
-    }
+@media screen and (max-width: 460px){
+    
     .cont-video video{
         object-fit: cover;
         object-position:center;
-        height: 10vh;
+        height: 75vh;
        
-      }
-       .fp{
-      font-size: 0.6rem;
-      }
+      }    
 }
 
 
 
-@media screen and (max-width: 375px) {
-    .logo img {
-        max-height: 5rem;
-    }
 
-    .titulo h1 {
-        font-size: 2rem;
-    }
+  
+
+  
 
    
 
@@ -413,4 +375,3 @@ color: rgb(255, 255, 255);
 
     
  
-}
