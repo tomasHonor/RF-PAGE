@@ -125,7 +125,7 @@ header {
 .cont-video video {
    max-height:78vh;
     object-fit: cover;
-    border-bottom: 6px solid white;
+    border-bottom: 6px solid rgb(40, 40, 40);
     
   
 }
@@ -133,8 +133,8 @@ header {
 /* CUADROS GRID PARA IMAGENES CON FRASE */
 .marco {
     border: 4px solid rgb(23, 23, 24);
-    border-radius: 2%;
-    border:0.6rem solid rgb(235, 228, 228);
+    border-radius: 1%;
+    border:0.6rem solid rgb(40, 40, 40);
 
 
 }
@@ -200,9 +200,9 @@ header {
 .frase h3 {
     font-family: 'Righteous', cursive;
     color: rgb(230, 230, 233);
-    opacity: 1;
-    font-size: 2.3rem;
-    padding: 2rem;
+    opacity: .7;
+    font-size: 2.5rem;
+    padding: 1rem;
     
   
 
@@ -212,7 +212,7 @@ header {
 .video-p-2 video{
     object-fit: cover;
     max-height: 82vh;
-    border: 6px solid rgb(255, 250, 250);
+    border: 6px solid rgb(40, 40, 40);
    
 
 }
@@ -224,6 +224,11 @@ header {
 
 .footer2 a{
     text-decoration: none;
+    align-content: center;
+}
+.alineacion{
+    text-decoration: none;
+    
 }
 
 
@@ -288,10 +293,14 @@ header {
        
        
     }
+    .frase h3{
+        font-size: 1.8rem;
+        opacity: .7;
+    }
    
     .marco{
         border-radius: 1%;
-        border: 0.5rem solid whitesmoke;
+        border: 0.5rem solid rgb(0, 0, 0);
        
     }
     .cont-video video{
@@ -356,8 +365,8 @@ header {
     }
    
     .marco{
-        border-radius: 3%;
-        border: 0.2rem solid whitesmoke;
+        border-radius: 1%;
+        border: 0.35rem solid rgb(40, 40, 40);
        
     }
     .cont-video video{
@@ -426,8 +435,8 @@ header {
     }
    
     .marco{
-        border-radius: 3%;
-        border: 0.2rem solid whitesmoke;
+        border-radius: 1%;
+        border: 0.4rem solid rgb(40, 40, 40);
        
     }
     .cont-video video{
