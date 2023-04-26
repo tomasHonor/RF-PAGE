@@ -183,12 +183,13 @@ header {
 
 
 .frase {
-    background-image: url(../img/wimb-rg.jpg);
+    background-image: url(../img/llora2.jpg);
     grid-area: frase;
     display: flex;
-    padding: 5rem;
+    padding: 9rem;
     background-size: cover;
-    background-position: center; 
+    
+   
  
   
     
@@ -198,7 +199,7 @@ header {
 
 .frase h3 {
     font-family: 'Righteous', cursive;
-    color: rgb(72, 72, 73);
+    color: rgb(230, 230, 233);
     opacity: 1;
     font-size: 2.3rem;
     padding: 2rem;
@@ -284,19 +285,19 @@ header {
     .frase {
         padding: 0;
         order:-1 ;
-        min-height: 25vh;
+       
        
     }
    
     .marco{
-        border-radius: 3%;
-        border: 0.2rem solid whitesmoke;
+        border-radius: 1%;
+        border: 0.5rem solid whitesmoke;
        
     }
     .cont-video video{
       object-fit: cover;
       object-position:center;
-      height: 60vh;
+      height: 70vh;
      
     }
     }
