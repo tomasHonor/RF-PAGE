@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap');
+
+
+  
+
 /* RESET */
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Libre Bodoni', serif;
+   
 }
 /* ---------------------------------- */
-
+header {
+    font-family: 'Libre Bodoni', serif;
+}
 img {
     width: 100%;
     height: 100%;
@@ -16,6 +24,7 @@ img {
 
 
 }
+
 
 video {
     width: 100%;
@@ -25,7 +34,10 @@ body {
 
     background-color: rgb(170, 21, 21);
 }
+.font-m{
+    font-family: 'Roboto', sans-serif;
 
+}
 /*--------------- menu y titulo---------- */
 header {
     display: flex;
@@ -116,7 +128,7 @@ color: rgb(255, 255, 255);
  padding: 0;
 }
 .cont-video video {
-   max-height:80vh;
+   max-height:78vh;
     object-fit: cover;
     border-bottom: 6px solid rgb(40, 40, 40);
     
@@ -180,6 +192,7 @@ color: rgb(255, 255, 255);
     display: flex;
     padding: 9rem;
     background-size: cover;
+    opacity: .9;
     
    
  
@@ -192,7 +205,7 @@ color: rgb(255, 255, 255);
 .frase h3 {
     font-family: 'Righteous', cursive;
     color: rgb(230, 230, 233);
-    opacity: .8;
+    opacity: .9;
     font-size: 2.5rem;
     padding: 1rem;
     
@@ -204,7 +217,7 @@ color: rgb(255, 255, 255);
 .video-p-2 video{
     object-fit: cover;
     max-height: 82vh;
-    border: 6px solid rgb(40, 40, 40);
+    border: 6px solid rgb(38, 38, 38);
    
 
 }
@@ -279,70 +292,19 @@ color: rgb(255, 255, 255);
      
     }
     }
-@media screen and (max-width: 768px) {
-    .logo {
-        display: flex;
-        align-items: center;
-        background-color: white;
-    }
-    .logo a {
-        padding: 0;
-    }
-
-    .logo img {
-        max-height: 10rem;
-       
-    }
-
+@media screen and (max-width: 620px) {
     .titulo h1 {
-        font-size: 3em;
-        padding: 1rem;
+        font-size: 2.5rem;
     }
-   
-   
-  
-   
-    .marco{
-        border-radius: 1%;
-        border: 0.5rem solid rgb(0, 0, 0);
+    .logo img {
+        max-height: 7rem;
        
     }
-    .cont-video video{
-      object-fit: cover;
-      object-position:center;
-      min-height: 60vh;
-     
-    }
-    
 
-    
-  
-    
 
 }
 
 @media screen and (max-width: 560px) {
-    .logo {
-        display: flex;
-        align-items: center;
-        background-color: white;
-    }
-    .logo a {
-        padding: 0;
-    }
-
-    .logo img {
-        max-height: 7.5rem;
-       
-    }
-
-    .titulo h1 {
-        font-size: 2.5rem;
-    }
-
-   
-   
-  
     .fp{
         font-size: 0.6rem;
         }
@@ -350,15 +312,15 @@ color: rgb(255, 255, 255);
 }
 
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 410px){
+   .titulo{
+    margin: 0;
+    padding: 0.5rem;
+   } 
+   .titulo h1{
+    margin: 0;
+   }
     
-    .cont-video video{
-        object-fit: cover;
-        object-position:center;
-        height: 75vh;
-       
-      }    
-      
 }
 
 
