@@ -100,6 +100,7 @@ header {
 .menuh a:hover{
 background-color:rgb(183, 21, 0) ;
 color: rgb(255, 255, 255);
+border-radius: 5%;
 }
 .al-item{
     align-items: center;
@@ -192,7 +193,7 @@ color: rgb(255, 255, 255);
     display: flex;
     padding: 9rem;
     background-size: cover;
-    opacity: .9;
+    opacity: .8;
     
    
  
@@ -204,8 +205,7 @@ color: rgb(255, 255, 255);
 
 .frase h3 {
     font-family: 'Righteous', cursive;
-    color: rgb(230, 230, 233);
-    opacity: .9;
+    color: rgb(255, 255, 255);
     font-size: 2.5rem;
     padding: 1rem;
     
@@ -221,6 +221,7 @@ color: rgb(255, 255, 255);
    
 
 }
+
 
 .alineado{
   
