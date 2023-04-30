@@ -236,6 +236,15 @@ align-items: center;
    
     
 }
+/* copa davis tarjeta */
+.tarjeta-copa{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.tarjeta-copa img{
+    height: 50vh;
+}
 
 
 
