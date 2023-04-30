@@ -3,6 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap');
+  
+/* ANIMACIONES H1 */
+
+@keyframes animacionx {
+    from {
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #fbfbfb, 0 4px 0 #f9f9f9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+
+    }
+
+    to {
+        text-shadow: 0 1px 0 #d8d8dd, 0 2px 0 #e3e4f1, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #e7e7ea, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(25, 12, 200, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10pxrgba(0, 0, 0, 0.2), 0 20px rgba(253, 253, 255, 0.998)
+    }
+}
+
+/* -------------------------------------------------------- */
 
 
   
@@ -103,29 +118,6 @@ color: rgb(255, 255, 255);
 border-radius: 5%;
 }
 
-    
-
-/* ANIMACIONES H1 */
-
-@keyframes animacionx {
-    from {
-        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #fbfbfb, 0 4px 0 #f9f9f9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
-
-    }
-
-    to {
-        text-shadow: 0 1px 0 #d8d8dd, 0 2px 0 #e3e4f1, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #e7e7ea, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(25, 12, 200, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10pxrgba(0, 0, 0, 0.2), 0 20px rgba(253, 253, 255, 0.998)
-    }
-}
-
-/* -------------------------------------------------------- */
-
-
-.cont-principal
-
-.cont-video{
- padding: 0;
-}
 .cont-video video {
    max-height:80vh;
     object-fit: cover;
@@ -220,22 +212,14 @@ border-radius: 5%;
 
 }
 
-
-.alineado{
-  
-display: flex;
-align-items: center;
-}
-
-/* ------------------------------------------------- */
-
-
+/* FOOTER */
 
 .alineacion{
     text-decoration: none;
    
     
 }
+/* ------------------------------------------------- */
 /* copa davis tarjeta */
 .tarjeta-copa{
     display: flex;
@@ -245,14 +229,6 @@ align-items: center;
 .tarjeta-copa img{
     height: 50vh;
 }
-
-
-
-/* FOOTER */
-
-
-
-
 
 /*---------------------- MEDIA QUERYS ---------------------- */
 @media screen and (max-width: 900px) {
