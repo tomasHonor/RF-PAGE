@@ -255,7 +255,12 @@ border-radius: 5%;
 
 
 /*---------------------- MEDIA QUERYS ---------------------- */
-@media screen and (max-width: 1600px ){
+@media screen and (max-width: 1420px ){
+    .footer-g{
+        display: flex;
+        justify-content: center;
+        
+    }
     .infancia-filas{
         display: flex;
         flex-direction: column;
@@ -271,6 +276,57 @@ border-radius: 5%;
         max-height:40vh;
         object-fit: cover;
         object-position: top;
+    }
+    .carrera-filas-v{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .carrera-filas-v div{
+      width: 80%;
+     
+   
+       
+    }
+    .carerra-filas-v div img{
+        max-height:40vh;
+        object-fit: cover;
+        object-position: center;
+        
+    }
+    .carrera-filas-1{
+        display: flex;
+        flex-direction: column;
+         margin-top: 1rem;
+         align-items: center;
+        
+    }
+    .carrera-filas-1 div{
+      width: 80%;
+   
+       
+    }
+    .infancia-filas-1 div img{
+        max-height:40vh;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carrera-filas-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+    }
+    .carrera-filas-2 div{
+      width: 80%;
+   
+       
+    }
+    .carrera-filas-2 div img{
+        max-height:40vh;
+        object-fit: cover;
+        object-position: center;
     }
     
 }
