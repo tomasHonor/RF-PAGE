@@ -229,6 +229,23 @@ border-radius: 5%;
 .tarjeta-copa img{
     height: 50vh;
 }
+/* BIOGRAFIA ESTILOS  */
+
+.section-infancia{
+    padding: 0.5rem;
+}
+.section-carrera{
+    padding: 0.5rem;;
+}
+.carrera-video {
+    background-color: aqua;
+    min-height: 100%;
+}
+.carrera-video video{
+    object-fit: cover;
+    min-height: 70%;
+
+}
 
 /*---------------------- MEDIA QUERYS ---------------------- */
 @media screen and (max-width: 900px) {
