@@ -255,6 +255,25 @@ border-radius: 5%;
 
 
 /*---------------------- MEDIA QUERYS ---------------------- */
+@media screen and (max-width: 1600px ){
+    .infancia-filas{
+        display: flex;
+        flex-direction: column;
+         margin-top: 1rem;
+        
+    }
+    .infancia-filas div{
+      width: 80%;
+   
+       
+    }
+    .infancia-filas div img{
+        max-height:40vh;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+}
 @media screen and (max-width: 900px) {
     .logo {
         display: flex;
