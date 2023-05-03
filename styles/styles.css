@@ -381,7 +381,7 @@ border-radius: 5%;
     }
 @media screen and (max-width: 620px) {
     .titulo h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     .logo img {
         max-height: 7rem;
@@ -401,6 +401,9 @@ border-radius: 5%;
 
 
 @media screen and (max-width: 410px){
+    .titulo h1 {
+        font-size: 2.8rem;
+    }
    .titulo{
     margin: 0;
     padding: 0.5rem;
@@ -408,6 +411,13 @@ border-radius: 5%;
    .titulo h1{
     margin: 0;
    }
+    
+}
+@media screen and (max-width: 340px){
+    .titulo h1 {
+        font-size: 2.3rem;
+    }
+ 
     
 }
 
