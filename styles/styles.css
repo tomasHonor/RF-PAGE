@@ -252,7 +252,10 @@ border-radius: 5%;
     height: 50vh;
 }
 /*---------------------- GRAND SLAM -----------------------*/
-
+.img-card img{
+    
+}
+  
 /*-------------------- MEDIA QUERIES - INDEX--------------- */
 @media screen and (max-width: 900px) {
     .logo {
