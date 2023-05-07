@@ -251,6 +251,8 @@ border-radius: 5%;
 .tarjeta-copa img{
     height: 50vh;
 }
+/*---------------------- GRAND SLAM -----------------------*/
+
 /*-------------------- MEDIA QUERIES - INDEX--------------- */
 @media screen and (max-width: 900px) {
     .logo {
