@@ -37,6 +37,7 @@ main,footer{
 
 img {
     width: 100%;
+    display: block;
    
 }
 
@@ -250,9 +251,42 @@ border-radius: 5%;
     gap: 1rem;
 }
 .tarjeta-copa img{
-    height: 50vh;
+  height: 50vh;
 }
 /*---------------------- GRAND SLAM -----------------------*/
+.grafico-i{
+    max-width: 40rem;
+}
+.tarjetas-gs{
+   
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.2rem;
+    padding: 1rem;
+}
+.tarjeta{
+    background-color: #fff;
+    margin: 0px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.tarjeta img{
+    border-radius: 8px 8px 0px 0px;
+    height: 28rem;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.tarjeta-texto{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 8px;
+    flex-grow: 1;
+}
 
 /* ---------MASTERS 100-------- */
 
@@ -267,10 +301,10 @@ border-radius: 5%;
     .frase{
         order:-1;
     }
-    .cuadro2{
+    .cuadro3{
         display: none;
     }
-    .cuadro4{
+    .cuadro2{
         display: none;
     }
     .cuadro5{
