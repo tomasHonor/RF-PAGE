@@ -260,17 +260,17 @@ border-radius: 5%;
     margin: 2rem ;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
-    padding: 1rem;
-  
+    gap: 2.5rem;
+    padding: 3.5rem;
 }
+
 .tarjeta{
     background-color: #fff;
     margin: 0;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    border: 5px solid white;
+
 }
 .tarjeta img{
     border-radius: 8px 8px 0px 0px;
@@ -292,10 +292,17 @@ border-radius: 5%;
 .tarjeta-texto p{
  margin:0;
 }
+.grafico{
+    max-width: 50%;
+    margin: 1rem auto;
+  
+}
+
+
 .cronologia{
-    background-color: #fff;
-    width: 80%;
-    margin: 0 auto;
+
+    width: 85%;
+    margin: 2rem auto;
     border-radius: 8px;
 }
 
@@ -309,16 +316,23 @@ width: 70%;
    
     border-radius: 10px;
     max-height: 250px;
+    border: 5px solid rgb(218, 83, 83);
     
    
 }
 .crono-t{
     display: flex;
-    padding: 1rem;
+    padding: 2rem;
     gap: 1rem;
     align-items: center;
-    background-color: #aaa;  
-    margin: 1rem;
+    background-color:rgb(170, 21, 21);  
+    margin: 3rem;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px rgb(200, 96, 96),
+     -10px -10px 8px rgb(200, 96, 96);
+}
+.crono-t h3{
+    font-weight: 600;
 }
 
 /* ---------MASTERS 100-------- */
