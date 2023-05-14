@@ -254,23 +254,23 @@ border-radius: 5%;
   height: 50vh;
 }
 /*---------------------- GRAND SLAM -----------------------*/
-.grafico-i{
-    max-width: 40rem;
-}
+
 .tarjetas-gs{
    
-    margin: 1rem auto;
+    margin: 2rem ;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 1.2rem;
+    gap: 1rem;
     padding: 1rem;
+  
 }
 .tarjeta{
     background-color: #fff;
-    margin: 0px;
+    margin: 0;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    border: 5px solid white;
 }
 .tarjeta img{
     border-radius: 8px 8px 0px 0px;
@@ -278,6 +278,7 @@ border-radius: 5%;
     overflow: hidden;
     object-fit: cover;
     object-position: center;
+    border-radius: 8px;
 }
 .tarjeta-texto{
     display: flex;
@@ -286,6 +287,38 @@ border-radius: 5%;
     text-align: justify;
     border-radius: 8px;
     flex-grow: 1;
+}
+
+.tarjeta-texto p{
+ margin:0;
+}
+.cronologia{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.cronologia article{
+width: 70%;
+}
+.crono-img{
+   width: 30%;
+}
+.crono-img img{
+   
+    border-radius: 10px;
+    max-height: 250px;
+    
+   
+}
+.crono-t{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    background-color: #aaa;  
+    margin: 1rem;
 }
 
 /* ---------MASTERS 100-------- */
