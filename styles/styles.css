@@ -896,5 +896,12 @@ header {
         margin: 0;
 
     }
+    .crono-t{
+        margin: 0.6rem auto;
+        padding: 0.3rem;
+    }
+    .crono-img {
+        width: 75%;
+    }
 
 }
