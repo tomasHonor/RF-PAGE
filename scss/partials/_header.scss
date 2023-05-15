@@ -1,0 +1,84 @@
+
+header {
+    font-family: 'Libre Bodoni', serif;
+    display: flex;
+    .logo {
+
+        display: flex;
+        border: 0.1rem solid black;
+        border-right: 0;
+        a {
+            background-color: rgb(253, 253, 253);
+        
+        }
+             
+            img {
+            max-height: 12rem;
+        
+        
+            }
+    }
+    .menu-titulo {
+        flex-grow: 1;
+        border: 0.1rem solid black;
+        .titulo {
+            background-color: $colorPrincipal;
+            border-bottom: 0;
+            padding: 0.5rem;
+        
+        }
+
+        .titulo h1 {
+            font-size: 5.6rem;
+            text-align: center;
+            padding-bottom: 0.2rem;
+            animation: animacionx 2s infinite;
+            
+        
+        }
+        .navh {
+            border-top: 0.1rem solid black;
+
+            .menuh {
+                flex-grow: 1;
+
+                a {
+                    border-radius: 2%;
+                    padding: 1rem;
+                    color: black;
+                    
+                    &:hover {
+                        background-color: rgb(183, 21, 0);
+                        color: rgb(255, 255, 255);
+                        border-radius: 5%;
+                    }
+                }
+                   
+            
+            }
+            
+        }    
+
+        
+    
+    }   
+  
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

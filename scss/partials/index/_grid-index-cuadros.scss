@@ -1,0 +1,61 @@
+
+
+
+.collage {
+    background-color: rgb(170, 21, 21);
+    margin-bottom: 0.5rem;
+    img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;}
+
+    .cuadros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "cuadro1 frase frase cuadro4"
+        "cuadro5  cuadro2 cuadro3 cuadro6 ";
+    gap: 0.8rem;
+
+// SSAS 2 FOR------------------------------
+    @for $t from 1 through 6{
+        .cuadro#{$t}{
+             grid-area: cuadro#{$t};
+    
+        }
+    }
+    .frase {
+        background-image: url(../img/llora2.jpg);
+        grid-area: frase;
+        padding: 9rem;
+        background-size: cover;
+        opacity: .8;
+        border: solid 5px white;
+        h3 {
+            font-family: 'Righteous', cursive;
+            color: rgb(255, 255, 255);
+            font-size: 2.5rem;
+            padding: 1rem;
+        
+        }
+    
+    
+    
+    
+    
+    
+    }
+
+}
+
+}
+
+
+
+.video-p-2 video {
+    object-fit: cover;
+    max-height: 85vh;
+    border: 5px solid rgb(255, 255, 255);
+
+
+}

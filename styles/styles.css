@@ -238,7 +238,7 @@ header {
     color: rgb(255, 255, 255);
     border-radius: 5%;
 }
-
+ /* video pagina principal */
 
 .cont-video video {
     max-height: 80vh;
@@ -333,11 +333,11 @@ header {
 
 /* FOOTER */
 
-.alineacion {
+/* .alineacion {
     text-decoration: none;
 
 
-}
+} */
 
 /* --------------------BIOGRAFIA----------------------------- */
 .bio img {
