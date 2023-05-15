@@ -263,7 +263,7 @@ border-radius: 5%;
     margin: 2rem ;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 2.5rem;
+    gap: 3rem;
     padding: 3.5rem;
 }
 
@@ -273,7 +273,13 @@ border-radius: 5%;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    opacity: 0.8;
+    transition: 1s  ease-in-out;
 
+}
+.tarjeta:hover{
+    opacity: 1;
+    transform: scale(1.13);
 }
 .tarjeta img{
     border-radius: 8px 8px 0px 0px;
