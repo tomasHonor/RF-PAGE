@@ -1,0 +1,55 @@
+
+.card-intro-m{
+ margin: 1rem auto;
+ background-color: rgb(170, 21, 21);
+box-shadow: $sombra;
+
+}
+.tarjetas-m1000 {
+
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    .tarjeta-m {
+        background-color: #fff;
+        margin: 0.5rem;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        transition: 1s ;
+        opacity: .8;
+        &:hover{
+            opacity: 1;
+            transform: scalex(1.15);
+        }
+        img {
+            border-radius: 8px 8px 0px 0px;
+            height: 20rem;
+            overflow: hidden;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px;
+        }
+        .tarjeta-texto-m {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            border-radius: 8px;
+            flex-grow: 1;
+        }
+        
+       
+    
+        
+    
+    }
+
+}
+
+
+
+
+
+

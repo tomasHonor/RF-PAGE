@@ -571,103 +571,18 @@ header {
         display: none;
     }
 }
-
-@media screen and (max-width: 900px) {
-    .logo {
-        display: flex;
-        align-items: center;
-        background-color: white;
-    }
-
-    .logo a {
-        padding: 0;
-    }
-
-    .logo img {
-        max-height: 10rem;
+/* MEDIA QUERIES GRAND SLAM */
+@media screen and (max-width: 1500px) {
+    .tarjetas-gs {
+        gap: 2rem;
+        padding: 1rem;
 
     }
 
-    .titulo h1 {
-        font-size: 4rem;
+    .tarjeta img {
+        height: 13rem;
     }
-
-
-    .cuadros {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-
-    }
-
-    .frase {
-        padding: 2rem;
-        order: -1;
-
-
-    }
-
-    .frase h3 {
-        font-size: 1.8rem;
-    }
-
-
-    .cont-video video {
-        object-fit: cover;
-        object-position: center;
-        height: 80vh;
-
-    }
-
 }
-
-@media screen and (max-width: 620px) {
-    .titulo h1 {
-        font-size: 3.5rem;
-    }
-
-    .logo img {
-        max-height: 7rem;
-
-    }
-
-
-}
-
-@media screen and (max-width: 560px) {
-    footer {
-        font-size: 0.7rem;
-    }
-
-}
-
-
-
-
-@media screen and (max-width: 410px) {
-    .titulo h1 {
-        font-size: 2.8rem;
-    }
-
-    .titulo {
-        margin: 0;
-        padding: 0.5rem;
-    }
-
-    .titulo h1 {
-        margin: 0;
-    }
-
-}
-
-@media screen and (max-width: 340px) {
-    .titulo h1 {
-        font-size: 2.3rem;
-    }
-
-
-}
-
 /*---------------------- MEDIA QUERYS  BIOGRAFIA ---------------------- */
 @media screen and (max-width: 1420px) {
     .footer-g {
@@ -757,19 +672,6 @@ header {
 
 }
 
-/* MEDIA QUERIES GRAND SLAM */
-@media screen and (max-width: 1500px) {
-    .tarjetas-gs {
-        gap: 2rem;
-        padding: 1rem;
-
-    }
-
-    .tarjeta img {
-        height: 13rem;
-    }
-}
-
 @media screen and (max-width: 1244px) {
     .tarjeta img {
         height: 10rem;
@@ -835,6 +737,55 @@ header {
     }
 }
 
+
+@media screen and (max-width: 900px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
+    .logo a {
+        padding: 0;
+    }
+
+    .logo img {
+        max-height: 10rem;
+
+    }
+
+    .titulo h1 {
+        font-size: 4rem;
+    }
+
+
+    .cuadros {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+    }
+
+    .frase {
+        padding: 2rem;
+        order: -1;
+
+
+    }
+
+    .frase h3 {
+        font-size: 1.8rem;
+    }
+
+
+    .cont-video video {
+        object-fit: cover;
+        object-position: center;
+        height: 80vh;
+
+    }
+
+}
 @media screen and (max-width: 678px) {
     .tarjetas-gs {
         grid-template-columns: repeat(2, 1fr);
@@ -878,6 +829,25 @@ header {
 
 }
 
+@media screen and (max-width: 620px) {
+    .titulo h1 {
+        font-size: 3.5rem;
+    }
+
+    .logo img {
+        max-height: 7rem;
+
+    }
+
+
+}
+
+@media screen and (max-width: 560px) {
+    footer {
+        font-size: 0.7rem;
+    }
+
+}
 @media screen and (max-width: 476px) {
     .tarjetas-gs {
         grid-template-columns: repeat(2, 1fr);
@@ -888,6 +858,42 @@ header {
     }
 
 }
+
+
+
+
+@media screen and (max-width: 410px) {
+    .titulo h1 {
+        font-size: 2.8rem;
+    }
+
+    .titulo {
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .titulo h1 {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .titulo h1 {
+        font-size: 2.3rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 320px) {
     .tarjetas-gs {
         grid-template-columns: repeat(2, 1fr);

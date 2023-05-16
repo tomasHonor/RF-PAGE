@@ -11,4 +11,25 @@
 
 
 
+.foto-bio {
+    display: flex;
+    align-items: center;
+}
+
+.foto-bio img {
+    min-height: 80%;
+
+}
+
+
+.carrera-video {
+    min-height: 100%;
+}
+
+.carrera-video video {
+    object-fit: cover;
+    min-height: 70%;
+
+}
+
 

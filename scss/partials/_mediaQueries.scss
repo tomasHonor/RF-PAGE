@@ -1,0 +1,360 @@
+/*-------------------- MEDIA QUERIES - INDEX--------------- */
+@media screen and (max-width: 1844px) {
+    .cuadros {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .frase {
+        order: -1;
+    }
+
+    .cuadro3 {
+        display: none;
+    }
+
+    .cuadro2 {
+        display: none;
+    }
+
+    .cuadro5 {
+        display: none;
+    }
+
+    .cuadro6 {
+        display: none;
+    }
+}
+/* MEDIA QUERIES GRAND SLAM */
+@media screen and (max-width: 1500px) {
+    .tarjetas-gs {
+        gap: 2rem;
+        padding: 1rem;
+
+    }
+
+     .tarjeta img {
+        height: 1rem;
+    }
+}
+/*---------------------- MEDIA QUERYS  BIOGRAFIA ---------------------- */
+@media screen and (max-width: 1420px) {
+    .footer-g {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .infancia-filas {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+    }
+
+    .infancia-filas div {
+        width: 80%;
+
+
+    }
+
+    .infancia-filas div img {
+        max-height: 40vh;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .carrera-filas-v {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .carrera-filas-v div {
+        width: 80%;
+
+
+
+    }
+
+    .carerra-filas-v div img {
+        max-height: 40vh;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    .carrera-filas-1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: center;
+
+    }
+
+    .carrera-filas-1 div {
+        width: 80%;
+
+
+    }
+
+    .infancia-filas-1 div img {
+        max-height: 40vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .carrera-filas-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .carrera-filas-2 div {
+        width: 80%;
+
+
+    }
+
+    .carrera-filas-2 div img {
+        max-height: 40vh;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+
+@media screen and (max-width: 1244px) {
+    .tarjeta img {
+        height: 10rem;
+    }
+
+    .tarjeta-texto {
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+
+    .tarjeta-texto h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1128px) {
+    .tarjetas-gs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+
+    }
+
+    .tarjeta:hover {
+        transform: scale(1);
+    }
+
+    .tarjeta img {
+        height: 15rem;
+    }
+
+    .tarjeta-texto {
+        font-size: 0.9rem;
+
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .tarjetas-gs {
+        margin: 1rem;
+    }
+
+    .tarjeta {
+        opacity: 1;
+    }
+
+    .crono-t {
+        display: flex;
+        padding: 1.2rem;
+        gap: 0.5rem;
+        flex-direction: column;
+        background-color: rgb(170, 21, 21);
+        margin: 2.5rem;
+        box-shadow: 8px 8px 9px rgb(200, 96, 96),
+            -8px -8px 10px rgb(200, 96, 96);
+        font-size: 0.9rem;
+
+    }
+
+    .crono-img {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
+    .logo a {
+        padding: 0;
+    }
+
+    .logo img {
+        max-height: 10rem;
+
+    }
+
+    .titulo h1 {
+        font-size: 4rem;
+    }
+
+
+    .cuadros {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+    }
+
+    .frase {
+        padding: 2rem;
+        order: -1;
+
+
+    }
+
+    .frase h3 {
+        font-size: 1.8rem;
+    }
+
+
+    .cont-video video {
+        object-fit: cover;
+        object-position: center;
+        height: 80vh;
+
+    }
+
+}
+@media screen and (max-width: 678px) {
+    .tarjetas-gs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+        padding: 0.5rem;
+        margin: 0.6rem;
+
+    }
+
+    .tarjeta img {
+        height: 10rem;
+    }
+
+    .tarjeta-texto {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+
+    }
+
+    .tarjeta-texto h2 {
+        font-size: 1.4rem;
+    }
+
+    .crono-t {
+        display: flex;
+        padding: 0.6rem;
+        flex-direction: column;
+        background-color: rgb(170, 21, 21);
+        margin: 2rem;
+        box-shadow: 8px 8px 9px rgb(200, 96, 96),
+            -8px -8px 10px rgb(200, 96, 96);
+        font-size: 0.85rem;
+
+    }
+
+    .crono-t h3 {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+
+}
+
+@media screen and (max-width: 620px) {
+    .titulo h1 {
+        font-size: 3.5rem;
+    }
+
+    .logo img {
+        max-height: 7rem;
+
+    }
+
+
+}
+
+@media screen and (max-width: 560px) {
+    footer {
+        font-size: 0.7rem;
+    }
+
+}
+@media screen and (max-width: 476px) {
+    .tarjetas-gs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.2rem;
+        margin: 0.8;
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 410px) {
+    .titulo h1 {
+        font-size: 2.8rem;
+    }
+
+    .titulo {
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    .titulo h1 {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    .titulo h1 {
+        font-size: 2.3rem;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+    .tarjetas-gs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0.5rem;
+        margin: 0;
+
+    }
+    .crono-t{
+        margin: 0.6rem auto;
+        padding: 0.3rem;
+    }
+    .crono-img {
+        width: 75%;
+    }
+
+}
