@@ -1,8 +1,13 @@
 
 .card-intro-m{
  margin: 1rem auto;
- background-color: rgb(170, 21, 21);
-box-shadow: $sombra;
+ background-color: $colorPrincipal;
+ box-shadow: $sombra;
+-webkit-animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+
+
 
 }
 .tarjetas-m1000 {
@@ -22,7 +27,7 @@ box-shadow: $sombra;
         opacity: .8;
         &:hover{
             opacity: 1;
-            transform: scalex(1.15);
+            transform: scale(1.15);
         }
         img {
             border-radius: 8px 8px 0px 0px;
