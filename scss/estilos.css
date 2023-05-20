@@ -67,7 +67,7 @@ header .menu-titulo .navh .menuh a {
   color: black;
 }
 header .menu-titulo .navh .menuh a:hover {
-  background-color: rgb(183, 21, 0);
+  background-color: rgb(170, 21, 21);
   color: rgb(255, 255, 255);
   border-radius: 5%;
 }
@@ -178,6 +178,7 @@ footer a {
 
 .cuadro img {
   border: 5px solid rgb(56, 56, 56);
+  box-shadow: 9px 9px 8px rgb(250, 194, 194), -9px -9px 8px rgb(253, 173, 173);
 }
 
 .tarjetas-gs {

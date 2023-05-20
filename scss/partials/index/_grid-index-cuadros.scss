@@ -18,7 +18,7 @@
     gap: 0.8rem;
 
 // SSAS 2 FOR------------------------------
-    @for $t from 1 through 6{
+        @for $t from 1 through 6{
         .cuadro#{$t}{
              grid-area: cuadro#{$t};
     

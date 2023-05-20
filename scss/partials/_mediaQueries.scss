@@ -3,7 +3,6 @@
     .cuadros {
         display: flex;
         flex-direction: column;
-
     }
 
     .frase {
@@ -26,6 +25,7 @@
         display: none;
     }
 }
+
 /* MEDIA QUERIES GRAND SLAM */
 @media screen and (max-width: 1500px) {
     .tarjetas-gs {
@@ -34,10 +34,11 @@
 
     }
 
-     .tarjeta img {
+    .tarjeta img {
         height: 1rem;
     }
 }
+
 /*---------------------- MEDIA QUERYS  BIOGRAFIA ---------------------- */
 @media screen and (max-width: 1420px) {
     .footer-g {
@@ -241,6 +242,7 @@
     }
 
 }
+
 @media screen and (max-width: 678px) {
     .tarjetas-gs {
         grid-template-columns: repeat(2, 1fr);
@@ -303,6 +305,7 @@
     }
 
 }
+
 @media screen and (max-width: 476px) {
     .tarjetas-gs {
         grid-template-columns: repeat(2, 1fr);
@@ -349,10 +352,12 @@
         margin: 0;
 
     }
-    .crono-t{
+
+    .crono-t {
         margin: 0.6rem auto;
         padding: 0.3rem;
     }
+
     .crono-img {
         width: 75%;
     }
