@@ -2,7 +2,7 @@
 
 
 .collage {
-    background-color: rgb(170, 21, 21);
+    background-color: $colorPrincipal;
     margin-bottom: 0.5rem;
     img {
         height: 100%;
@@ -10,6 +10,7 @@
         object-position: center;}
 
     .cuadros {
+     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -23,22 +24,26 @@
              grid-area: cuadro#{$t};
     
         }
-    }
-    .frase {
-        background-image: url(../img/llora2.jpg);
-        grid-area: frase;
-        padding: 9rem;
-        background-size: cover;
-        opacity: .8;
-        border: solid 5px white;
-        h3 {
-            font-family: 'Righteous', cursive;
-            color: rgb(255, 255, 255);
-            font-size: 2.5rem;
-            padding: 1rem;
         
-        }
-    
+        .frase {
+            background-image: url(../img/llora2.jpg);
+            background-color: white;
+            grid-area: frase;
+            padding: 4.5rem;
+            background-size: cover;
+            opacity: .74;
+            border: solid 5px white;
+            h3 {
+                font-family: 'Righteous', cursive;
+                color: rgb(255, 255, 255);
+                font-size: 1.5rem;
+                padding: 1rem;
+               
+               
+            
+            }
+        
+    }
     
     
     

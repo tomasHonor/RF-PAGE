@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @keyframes animacionx {
   from {
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #fbfbfb, 0 4px 0 #f9f9f9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
@@ -78,7 +79,7 @@ video {
 }
 
 body {
-  background-color: rgb(170, 21, 21);
+  background-color: #AA0000;
 }
 
 header {
@@ -101,7 +102,7 @@ header .menu-titulo {
   border: 0.1rem solid black;
 }
 header .menu-titulo .titulo {
-  background-color: rgb(170, 21, 21);
+  background-color: #AA0000;
   border-bottom: 0;
   padding: 0.5rem;
 }
@@ -123,7 +124,7 @@ header .menu-titulo .navh .menuh a {
   color: black;
 }
 header .menu-titulo .navh .menuh a:hover {
-  background-color: rgb(170, 21, 21);
+  background-color: #AA0000;
   color: rgb(255, 255, 255);
   border-radius: 5%;
 }
@@ -136,7 +137,7 @@ header .menu-titulo .navh .menuh a:hover {
 }
 
 .collage {
-  background-color: rgb(170, 21, 21);
+  background-color: #AA0000;
   margin-bottom: 0.5rem;
 }
 .collage img {
@@ -155,33 +156,109 @@ header .menu-titulo .navh .menuh a:hover {
 .collage .cuadros .cuadro1 {
   grid-area: cuadro1;
 }
+.collage .cuadros .frase {
+  background-image: url(../img/llora2.jpg);
+  background-color: white;
+  grid-area: frase;
+  padding: 4.5rem;
+  background-size: cover;
+  opacity: 0.74;
+  border: solid 5px white;
+}
+.collage .cuadros .frase h3 {
+  font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
 .collage .cuadros .cuadro2 {
   grid-area: cuadro2;
+}
+.collage .cuadros .frase {
+  background-image: url(../img/llora2.jpg);
+  background-color: white;
+  grid-area: frase;
+  padding: 4.5rem;
+  background-size: cover;
+  opacity: 0.74;
+  border: solid 5px white;
+}
+.collage .cuadros .frase h3 {
+  font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 .collage .cuadros .cuadro3 {
   grid-area: cuadro3;
 }
+.collage .cuadros .frase {
+  background-image: url(../img/llora2.jpg);
+  background-color: white;
+  grid-area: frase;
+  padding: 4.5rem;
+  background-size: cover;
+  opacity: 0.74;
+  border: solid 5px white;
+}
+.collage .cuadros .frase h3 {
+  font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
 .collage .cuadros .cuadro4 {
   grid-area: cuadro4;
 }
+.collage .cuadros .frase {
+  background-image: url(../img/llora2.jpg);
+  background-color: white;
+  grid-area: frase;
+  padding: 4.5rem;
+  background-size: cover;
+  opacity: 0.74;
+  border: solid 5px white;
+}
+.collage .cuadros .frase h3 {
+  font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
 .collage .cuadros .cuadro5 {
   grid-area: cuadro5;
+}
+.collage .cuadros .frase {
+  background-image: url(../img/llora2.jpg);
+  background-color: white;
+  grid-area: frase;
+  padding: 4.5rem;
+  background-size: cover;
+  opacity: 0.74;
+  border: solid 5px white;
+}
+.collage .cuadros .frase h3 {
+  font-family: "Righteous", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 .collage .cuadros .cuadro6 {
   grid-area: cuadro6;
 }
 .collage .cuadros .frase {
   background-image: url(../img/llora2.jpg);
+  background-color: white;
   grid-area: frase;
-  padding: 9rem;
+  padding: 4.5rem;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 0.74;
   border: solid 5px white;
 }
 .collage .cuadros .frase h3 {
   font-family: "Righteous", cursive;
   color: rgb(255, 255, 255);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
@@ -251,12 +328,13 @@ footer a {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  opacity: 0.8;
+  opacity: 0.7;
   transition: 1s ease-in-out;
+  font-family: "Poppins", sans-serif;
 }
 .tarjetas-gs .tarjeta:hover {
   opacity: 1;
-  transform: scale(1.13);
+  transform: scale(1.12);
 }
 .tarjetas-gs .tarjeta img {
   border-radius: 8px 8px 0px 0px;
@@ -290,29 +368,29 @@ footer a {
   padding: 2rem;
   gap: 1rem;
   align-items: center;
-  background-color: rgb(170, 21, 21);
+  background-color: #AA0000;
   margin: 3rem;
   border-radius: 8px;
   box-shadow: 9px 9px 8px rgb(250, 194, 194), -9px -9px 8px rgb(253, 173, 173);
 }
-.cronologia .crono-t article {
+.cronologia article {
   width: 70%;
 }
-.cronologia .crono-t article h3 {
+.cronologia article h3 {
   font-weight: 600;
 }
-.cronologia .crono-t .crono-img {
+.cronologia .crono-img {
   width: 30%;
 }
-.cronologia .crono-t .crono-img img {
-  border-radius: 10px;
-  max-height: 250px;
-  border: 4px solid rgb(238, 228, 228);
+.cronologia .crono-img img {
+  border-radius: 8px;
+  max-height: 240px;
+  border: 3.5px solid rgb(238, 228, 228);
 }
 
 .card-intro-m {
   margin: 1rem auto;
-  background-color: rgb(170, 21, 21);
+  background-color: #AA0000;
   box-shadow: 9px 9px 8px rgb(250, 194, 194), -9px -9px 8px rgb(253, 173, 173);
   animation: ani-intro 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -321,38 +399,37 @@ footer a {
   margin: 1rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1.5rem;
+  padding: 4rem;
 }
-.tarjetas-m1000 .tarjeta-m {
-  background-color: #fff;
+
+.tarjeta-m {
+  background-color: white;
   margin: 0.5rem;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   transition: 1s;
-  opacity: 0.8;
 }
-.tarjetas-m1000 .tarjeta-m:hover {
+.tarjeta-m:hover {
   opacity: 1;
-  transform: scale(1.15);
+  transform: scale(1.12);
 }
-.tarjetas-m1000 .tarjeta-m img {
+.tarjeta-m img {
   border-radius: 8px 8px 0px 0px;
-  height: 20rem;
   overflow: hidden;
+  height: 20rem;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  border-radius: 8px;
 }
-.tarjetas-m1000 .tarjeta-m .tarjeta-texto-m {
+.tarjeta-m .tarjeta-texto-m {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border-radius: 8px;
   flex-grow: 1;
+  font-family: "Poppins", sans-serif;
 }
 
 /*-------------------- MEDIA QUERIES - INDEX--------------- */

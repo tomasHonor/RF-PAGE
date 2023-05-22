@@ -15,34 +15,45 @@ animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     margin: 1rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    padding: 2rem;
-    .tarjeta-m {
-        background-color: #fff;
+    gap: 1.5rem;
+    padding: 4rem;
+   
+    }
+    .tarjeta-m { 
+        background-color: white;
+      
         margin: 0.5rem;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
         transition: 1s ;
-        opacity: .8;
+     
         &:hover{
             opacity: 1;
-            transform: scale(1.15);
+            transform: scale(1.12);
+           
         }
+        
         img {
             border-radius: 8px 8px 0px 0px;
-            height: 20rem;
             overflow: hidden;
+            height: 20rem;
             object-fit: cover;
             object-position: center;
-            border-radius: 8px;
+            
+           
+           
+        
         }
         .tarjeta-texto-m {
             display: flex;
             flex-direction: column;
             padding: 1rem;
-            border-radius: 8px;
             flex-grow: 1;
+            font-family: 'Poppins', sans-serif;
+
+           
+    
         }
         
        
@@ -51,7 +62,7 @@ animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     
     }
 
-}
+
 
 
 
