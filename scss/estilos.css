@@ -315,26 +315,26 @@ footer a {
 }
 
 .tarjetas-gs {
-  margin: 2rem;
+  margin: 1.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
-  padding: 3.5rem;
+  gap: 2.5rem;
+  padding: 2rem;
   animation: cards-ani 1.1s both;
 }
 .tarjetas-gs .tarjeta {
-  background-color: #fff;
+  background-color: rgb(251, 251, 251);
   margin: 0;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  opacity: 0.7;
+  opacity: 0.6;
   transition: 1s ease-in-out;
   font-family: "Poppins", sans-serif;
 }
 .tarjetas-gs .tarjeta:hover {
   opacity: 1;
-  transform: scale(1.12);
+  transform: scale(1.1);
 }
 .tarjetas-gs .tarjeta img {
   border-radius: 8px 8px 0px 0px;
@@ -383,7 +383,7 @@ footer a {
 .cronologia .crono-img img {
   border-radius: 8px;
   max-height: 240px;
-  border: 3.5px solid rgb(238, 228, 228);
+  border: 2.5px solid rgb(251, 251, 251);
 }
 
 .card-intro-m {
@@ -498,10 +498,96 @@ footer a {
 @media screen and (max-width: 1500px) {
   .tarjetas-gs {
     gap: 2rem;
+    padding: 0.5rem;
+  }
+  .tarjetas-gs .tarjeta img {
+    border-radius: 8px 8px 0px 0px;
+    max-height: 20rem;
+  }
+  .cronologia .crono-t {
+    display: flex;
+    padding: 1.2rem;
+    flex-direction: column;
+    background-color: #AA0000;
+    margin: 2rem;
+    box-shadow: 8px 8px 9px rgb(200, 96, 96), -8px -8px 10px rgb(200, 96, 96);
+    font-size: 0.9rem;
+  }
+  .cronologia .crono-img {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .tarjetas-gs {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .tarjetas-gs .tarjeta img {
+    border-radius: 8px 8px 0px 0px;
+    max-height: 15rem;
+  }
+  .tarjetas-gs .tarjeta-texto {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tarjetas-gs .tarjeta {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 678px) {
+  .tarjetas-gs {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .tarjetas-gs .tarjeta img {
+    max-height: 14rem;
+  }
+  .tarjetas-gs .tarjeta-texto {
+    font-size: 0.8rem;
     padding: 1rem;
   }
-  .tarjeta img {
-    height: 1rem;
+  .tarjetas-gs .tarjeta:hover {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 478px) {
+  .tarjetas-gs {
+    gap: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .tarjetas-gs .tarjeta img {
+    max-height: 12rem;
+  }
+  .tarjetas-gs .tarjeta-texto {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .tarjetas-gs .tarjeta-texto h2 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tarjetas-gs {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+    padding: 0.8rem;
+    margin: 0.5rem;
+  }
+  .tarjetas-gs .tarjeta img {
+    max-height: 12rem;
+  }
+  .tarjetas-gs .tarjeta-texto {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+  .tarjetas-gs .tarjeta-texto h2 {
+    font-size: 1.3rem;
   }
 }
 /*---------------------- MEDIA QUERYS  BIOGRAFIA ---------------------- */
@@ -571,55 +657,6 @@ footer a {
        object-position: center;
   }
 }
-@media screen and (max-width: 1244px) {
-  .tarjeta img {
-    height: 10rem;
-  }
-  .tarjeta-texto {
-    font-size: 0.9rem;
-    padding: 1rem;
-  }
-  .tarjeta-texto h2 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 1128px) {
-  .tarjetas-gs {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding: 1rem;
-  }
-  .tarjeta:hover {
-    transform: scale(1);
-  }
-  .tarjeta img {
-    height: 15rem;
-  }
-  .tarjeta-texto {
-    font-size: 0.9rem;
-  }
-}
-@media screen and (max-width: 992px) {
-  .tarjetas-gs {
-    margin: 1rem;
-  }
-  .tarjeta {
-    opacity: 1;
-  }
-  .crono-t {
-    display: flex;
-    padding: 1.2rem;
-    gap: 0.5rem;
-    flex-direction: column;
-    background-color: rgb(170, 21, 21);
-    margin: 2.5rem;
-    box-shadow: 8px 8px 9px rgb(200, 96, 96), -8px -8px 10px rgb(200, 96, 96);
-    font-size: 0.9rem;
-  }
-  .crono-img {
-    width: 70%;
-  }
-}
 @media screen and (max-width: 900px) {
   .logo {
     display: flex;
@@ -655,37 +692,6 @@ footer a {
     height: 80vh;
   }
 }
-@media screen and (max-width: 678px) {
-  .tarjetas-gs {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.8rem;
-    padding: 0.5rem;
-    margin: 0.6rem;
-  }
-  .tarjeta img {
-    height: 10rem;
-  }
-  .tarjeta-texto {
-    font-size: 0.8rem;
-    padding: 0.5rem;
-  }
-  .tarjeta-texto h2 {
-    font-size: 1.4rem;
-  }
-  .crono-t {
-    display: flex;
-    padding: 0.6rem;
-    flex-direction: column;
-    background-color: rgb(170, 21, 21);
-    margin: 2rem;
-    box-shadow: 8px 8px 9px rgb(200, 96, 96), -8px -8px 10px rgb(200, 96, 96);
-    font-size: 0.85rem;
-  }
-  .crono-t h3 {
-    font-weight: 600;
-    font-size: 1.3rem;
-  }
-}
 @media screen and (max-width: 620px) {
   .titulo h1 {
     font-size: 3.5rem;
@@ -697,14 +703,6 @@ footer a {
 @media screen and (max-width: 560px) {
   footer {
     font-size: 0.7rem;
-  }
-}
-@media screen and (max-width: 476px) {
-  .tarjetas-gs {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    padding: 0.2rem;
-    margin: 0.8;
   }
 }
 @media screen and (max-width: 410px) {
@@ -722,20 +720,5 @@ footer a {
 @media screen and (max-width: 340px) {
   .titulo h1 {
     font-size: 2.3rem;
-  }
-}
-@media screen and (max-width: 320px) {
-  .tarjetas-gs {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-    padding: 0.5rem;
-    margin: 0;
-  }
-  .crono-t {
-    margin: 0.6rem auto;
-    padding: 0.3rem;
-  }
-  .crono-img {
-    width: 75%;
   }
 }/*# sourceMappingURL=estilos.css.map */
