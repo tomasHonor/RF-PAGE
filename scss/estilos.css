@@ -338,24 +338,22 @@ footer a {
 }
 .tarjetas-gs .tarjeta img {
   border-radius: 8px 8px 0px 0px;
-  height: 26rem;
+  height: 24rem;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  border-radius: 8px;
 }
 .tarjetas-gs .tarjeta .tarjeta-texto {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  text-align: justify;
+  padding: 0.5rem;
   border-radius: 8px;
-  flex-grow: 1;
 }
-.tarjetas-gs .tarjeta .tarjeta-texto p {
-  margin: 0;
+.tarjetas-gs .tarjeta .tarjeta-texto h2 {
+  font-family: "Libre Bodoni", serif;
+  color: rgb(3, 111, 147);
 }
 
 .cronologia {
@@ -433,8 +431,8 @@ footer a {
 }
 
 /*-------------------- MEDIA QUERIES - INDEX--------------- */
-@media screen and (max-width: 1844px) {
-  .cuadros {
+@media screen and (max-width: 1144px) {
+  .collage .cuadros {
     display: flex;
     flex-direction: column;
   }
@@ -452,6 +450,48 @@ footer a {
   }
   .cuadro6 {
     display: none;
+  }
+}
+@media screen and (max-width: 856px) {
+  header .menu-titulo .titulo h1 {
+    font-size: 4rem;
+    padding: 0.5rem;
+  }
+  header .logo img {
+    max-height: 9rem;
+  }
+}
+@media screen and (max-width: 612px) {
+  header .menu-titulo .titulo h1 {
+    font-size: 3rem;
+  }
+  header .logo img {
+    max-height: 8rem;
+  }
+  .collage .cuadros .frase {
+    padding: 1.5rem;
+  }
+  .collage .cuadros .frase h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 484px) {
+  header .menu-titulo .titulo h1 {
+    font-size: 2.5rem;
+  }
+  header .logo img {
+    max-height: 6.5rem;
+  }
+  .collage .cuadros .frase {
+    padding: 1rem;
+  }
+  .collage .cuadros .frase h3 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .menu-titulo .titulo h1 {
+    font-size: 1.8rem;
   }
 }
 /* MEDIA QUERIES GRAND SLAM */

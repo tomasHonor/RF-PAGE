@@ -22,25 +22,27 @@
         &:hover {
             opacity: 1;
             transform: scale(1.12);
+           
         }
         img {
             border-radius: 8px 8px 0px 0px;
-            height: 26rem;
+            height: 24rem;
             overflow: hidden;
             object-fit: cover;
             object-position: center;
-            border-radius: 8px;
+        
         }
         .tarjeta-texto {
             display: flex;
             flex-direction: column;
-            padding: 1rem;
-            text-align: justify;
+            padding: 0.5rem;
             border-radius: 8px;
-            flex-grow: 1;
-            p {
-                margin: 0;
+            h2{
+                font-family: 'Libre Bodoni', serif;
+                color: rgb(3, 111, 147);
             }
+              
+          
             
         }
     }
