@@ -339,12 +339,65 @@
     .cont-copa{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
+    
     }
      
     
   }
+  @media screen and (max-width: 862px) {
+    .cont-copa{
+        .tit-copadavis {
+            img{
+                width: 13%;
+                
+            }
+            
+        }
+        .tarjeta-copa {
+            img {
+                height: 45vh;
+             
+            }
 
+                }
+        .pie-c{
+            font-size: 0.6rem;
+                    text-align: start;
+                            }
+
+  }
+    
+
+  }
+  @media screen and (max-width: 862px) {
+    .cont-copa{
+        .tit-copadavis {
+            img{
+                width: 12%;
+                
+            }
+            h2{
+                font-size: 2.2rem;
+            }
+            
+        }
+        .tarjeta-copa {
+            img {
+                height: 30vh;
+             
+            }
+
+                }
+        .pie-c{
+        font-size: 0.6rem;
+        text-align: start;
+                }
+
+  }
+
+  }
+  
 
 
 
