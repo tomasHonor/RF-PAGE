@@ -20,8 +20,7 @@ animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    
     }
     .tarjeta-m { 
-        background-color: white;
-      
+        background-color:$colorSecundario;
         margin: 0.5rem;
         border-radius: 8px;
         display: flex;

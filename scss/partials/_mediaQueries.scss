@@ -1,4 +1,5 @@
 /*-------------------- MEDIA QUERIES - INDEX--------------- */
+
 @media screen and (max-width: 1144px) {
     .collage .cuadros {
         display: flex;
@@ -81,7 +82,10 @@
       } 
     }
 
-/* MEDIA QUERIES GRAND SLAM */
+// -----------/* MEDIA QUERIES GRAND SLAM */---------------
+
+//  ----  ///  GRAND SLAM /// TARJETAS //// -----------
+
 @media screen and (max-width: 1500px) {
     .tarjetas-gs {
         gap: 2rem;
@@ -95,31 +99,7 @@
         
 
     }
-    .cronologia{
-        .crono-t {
-            display: flex;
-            padding: 1.2rem;
-            flex-direction: column;
-            background-color: $colorPrincipal;
-            margin: 2rem;
-            box-shadow: 8px 8px 9px rgb(200, 96, 96),
-                -8px -8px 10px rgb(200, 96, 96);
-            font-size: 0.9rem;
     
-        }
-        .crono-img {
-            width: 70%;
-        }
-
-    }
-   
-
-   
-}
-
-
-   
-
 @media screen and (max-width: 1270px) {
     .tarjetas-gs {
         grid-template-columns: repeat(2, 1fr);
@@ -210,8 +190,57 @@
     }
     
 }
+//  ----  ///  GRAND SLAM /// CRONOLOGIA //// -----------
+    .cronologia{
+        .crono-t {
+            display: flex;
+        
+            flex-direction: column;
+            background-color: $colorPrincipal;
+            box-shadow: $sombra;
+            font-size: 0.9rem;
+            gap: 0.5rem;
+            .crono-img {
+                width: 35%;
+            }
+    
+          
+    
+        }
+       
+    }
+   
+
+   
+}
+@media screen and (max-width: 1080px){
+    .cronologia{
+        .crono-t {
+            display: flex;
+        
+            flex-direction: column;
+            background-color: $colorPrincipal;
+            box-shadow: $sombra;
+            font-size: 0.9rem;
+            gap: 0.5rem;
+            flex-basis: 10%;
+           align-items: center;
+            .crono-img {
+                width: 55%;
+            }
+    
+          
+    
+        }
+       
+    }
+}
+
+
+   
 
 /*---------------------- MEDIA QUERYS  BIOGRAFIA ---------------------- */
+
 @media screen and (max-width: 1420px) {
     .footer-g {
         display: flex;

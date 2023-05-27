@@ -3,7 +3,8 @@
     flex-direction: column;
     gap: 1rem;
     img {
-        height: 52.5vh;
+        height: 60vh;
+     
     }
 }
 
@@ -11,4 +12,18 @@
 .cuadro img {
     border: 5px solid rgb(56, 56, 56);
     box-shadow: $sombra;
+}
+
+.tit-copadavis{
+    display: flex;
+    gap: 1rem;
+    justify-content:center;
+    align-items: center;
+    img{
+        width: 6%;
+       
+    }
+    h2{
+       font-size: 2.6rem;
+    }
 }

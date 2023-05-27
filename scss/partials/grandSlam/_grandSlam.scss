@@ -18,6 +18,11 @@
         opacity: 0.6;
         transition: 1s ease-in-out;
         font-family: 'Poppins', sans-serif;
+        a{
+            text-decoration: none;
+            color: rgb(3, 111, 147);
+            font-weight: 500;
+        }
 
         &:hover {
             opacity: 1;
@@ -41,7 +46,17 @@
                 font-family: 'Libre Bodoni', serif;
                 color: rgb(3, 111, 147);
             }
-              
+            .titulos-gs{
+                display: flex;
+
+
+
+                img{
+                    max-height: 50px;
+                    width: 100%;
+                };
+            }
+            
           
             
         }
@@ -60,7 +75,7 @@
     .crono-t {
         display: flex;
         padding: 2rem;
-        gap: 1rem;
+        gap: 3rem;
         align-items: center;
         background-color: $colorPrincipal;
         margin: 3rem;
@@ -75,7 +90,7 @@
                 }
             }
             .crono-img {
-                width: 30%;
+                width: 25%;
                 img {
 
                     border-radius: 8px;
