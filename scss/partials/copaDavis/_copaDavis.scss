@@ -1,6 +1,8 @@
 
-
 .cont-copa{
+     -webkit-animation: ani-davis 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: ani-davis 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    
     .tit-copadavis{
         display: flex;
         justify-content:center;

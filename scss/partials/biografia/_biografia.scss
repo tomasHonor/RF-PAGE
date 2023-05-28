@@ -1,8 +1,13 @@
 .bio{
-    img{min-height: 100%;
+        -webkit-animation: ani-bio 0.45s ease-out both;
+                animation: ani-bio 0.45s ease-out both;
+    
+    
+img{min-height: 100%;
         object-fit: cover;
         object-position: center;
     }
+   
 }
     
 
