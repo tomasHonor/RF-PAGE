@@ -257,9 +257,6 @@ header .menu-titulo .navh .menuh a:hover {
   font-size: 1.8rem;
   padding: 1rem;
 }
-.collage .cuadros .marco:hover {
-  animation: rotate-title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-}
 .collage .cuadros .cuadro2 {
   grid-area: cuadro2;
 }
@@ -276,9 +273,6 @@ header .menu-titulo .navh .menuh a:hover {
   color: rgb(255, 255, 255);
   font-size: 1.8rem;
   padding: 1rem;
-}
-.collage .cuadros .marco:hover {
-  animation: rotate-title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 .collage .cuadros .cuadro3 {
   grid-area: cuadro3;
@@ -297,9 +291,6 @@ header .menu-titulo .navh .menuh a:hover {
   font-size: 1.8rem;
   padding: 1rem;
 }
-.collage .cuadros .marco:hover {
-  animation: rotate-title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-}
 .collage .cuadros .cuadro4 {
   grid-area: cuadro4;
 }
@@ -316,9 +307,6 @@ header .menu-titulo .navh .menuh a:hover {
   color: rgb(255, 255, 255);
   font-size: 1.8rem;
   padding: 1rem;
-}
-.collage .cuadros .marco:hover {
-  animation: rotate-title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 .collage .cuadros .cuadro5 {
   grid-area: cuadro5;
@@ -337,9 +325,6 @@ header .menu-titulo .navh .menuh a:hover {
   font-size: 1.8rem;
   padding: 1rem;
 }
-.collage .cuadros .marco:hover {
-  animation: rotate-title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-}
 .collage .cuadros .cuadro6 {
   grid-area: cuadro6;
 }
@@ -356,9 +341,6 @@ header .menu-titulo .navh .menuh a:hover {
   color: rgb(255, 255, 255);
   font-size: 1.8rem;
   padding: 1rem;
-}
-.collage .cuadros .marco:hover {
-  animation: rotate-title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 .video-p-2 video {
