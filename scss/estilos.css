@@ -554,16 +554,16 @@ footer a {
 }
 @media screen and (max-width: 484px) {
   header .menu-titulo .titulo h1 {
-    font-size: 2.6rem;
-    margin-top: 1rem;
+    font-size: 2.23rem;
+    margin-top: 2.3rem;
   }
   header .logo img {
-    max-height: 11rem;
+    max-height: 9rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 412px) {
   header .menu-titulo .titulo h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin-top: 1.5rem;
   }
 }
