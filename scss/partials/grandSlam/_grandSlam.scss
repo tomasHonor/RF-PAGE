@@ -20,13 +20,15 @@
         font-family: 'Poppins', sans-serif;
         a{
             text-decoration: none;
-            color: rgb(3, 111, 147);
+            color: $colorTerciario;
             font-weight: 500;
         }
 
         &:hover {
             opacity: 1;
             transform: scale(1.1);
+            
+
            
         }
         img {
@@ -44,7 +46,7 @@
             border-radius: 8px;
             h2{
                 font-family: 'Libre Bodoni', serif;
-                color: rgb(3, 111, 147);
+                color: $colorTerciario;
             }
             .titulos-gs{
                 display: flex;

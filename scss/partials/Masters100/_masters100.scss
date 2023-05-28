@@ -5,6 +5,15 @@
  box-shadow: $sombra;
 -webkit-animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.imagen-sec{
+    img{
+        animation: ani-rebota 3.5s ease-out  both;
+
+    }
+   
+
+
+ }
 
 }
 .tarjetas-m1000 {
@@ -47,6 +56,10 @@ animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
             padding: 1rem;
             flex-grow: 1;
             font-family: 'Poppins', sans-serif;
+            h2{
+                color: $colorTerciario;
+                font-weight: bold;
+            }
 
            
     
