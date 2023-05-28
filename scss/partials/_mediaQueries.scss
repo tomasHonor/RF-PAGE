@@ -448,6 +448,199 @@
     }
 
   }
+
+    // MEDIA QUERIES MASTERS 1000-----------------
+
+    //   CARD-INTRO //---------------
+
+  
+@media screen and (max-width: 678px) {
+
+    .card-intro-m{
+        width: 90%;
+    
+
+        .perfecion-sec{
+           margin-top: 0;
+           padding-top: 0;
+           .imagen-sec {
+              img{
+             width: 80%;
+              margin: 0 auto;
+             }
+      
+          }
+
+
+        }
+    
+     }
+    }
+//  TARJETAS MASTERS 1000 -----------------------------
+
+
+@media screen and (max-width: 1500px) {
+    .tarjetas-m1000 {
+
+        margin: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        padding: 0rem;
+       
+        }
+        .tarjeta-m { 
+            background-color:$colorSecundario;
+            margin: 0.5rem;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            transition: 1s ;
+         
+            &:hover{
+                opacity: 1;
+                transform: scale(1.09);
+               
+            }
+            
+            img {
+                border-radius: 8px 8px 0px 0px;
+                overflow: hidden;
+                height: 28rem;
+                object-fit: cover;
+                object-position: center;
+                
+               
+               
+            
+            }
+            
+           
+        
+            
+        
+        }
+    
+}
+@media screen and (max-width: 1000px) {
+    .tarjetas-m1000 {
+
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.5rem;
+        padding: 2rem;
+       
+        }
+        .tarjeta-m { 
+        
+            &:hover{
+                opacity: 1;
+                transform: scale(1);
+               
+            }
+            
+            img {
+                border-radius: 8px 8px 0px 0px;
+                overflow: hidden;
+                height: 28rem;
+                object-fit: cover;
+                object-position: center;
+                
+               
+               
+            
+            }
+            
+            
+           
+        
+            
+        
+        }
+    
+}
+@media screen and (max-width: 678px) {
+    .tarjetas-m1000 {
+
+        margin: 1rem;
+       
+        }
+        .tarjeta-m { 
+    
+            img {
+        
+                height: 20rem;
+                object-fit: cover;
+                object-position: center;
+                
+               
+               
+            
+            }
+            
+            
+           
+        
+            
+        
+        }
+
+}
+@media screen and (max-width: 488px) {
+    .tarjetas-m1000 {
+
+        margin: 0.5rem;
+       
+        }
+        .tarjeta-m { 
+    
+            img {
+        
+                height: 15rem;
+                object-fit: cover;
+                object-position: center;
+                
+               
+               
+            
+            }
+            
+            
+           
+        
+            
+        
+        }
+
+}
+@media screen and (max-width: 488px) {
+    .tarjetas-m1000 {
+
+        margin: 0.5rem;
+       
+        }
+        .tarjeta-m { 
+    
+            img {
+        
+                height: 12rem;
+                object-fit: cover;
+                object-position: center;
+                
+               
+               
+            
+            }
+            
+            
+           
+        
+            
+        
+        }
+}
+
   
 
 

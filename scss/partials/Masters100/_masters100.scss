@@ -1,6 +1,6 @@
 
 .card-intro-m{
- margin: 1rem auto;
+ margin: 2rem auto;
  background-color: $colorPrincipal;
  box-shadow: $sombra;
 -webkit-animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -16,7 +16,7 @@ animation: ani-intro 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
-    padding: 4rem;
+    padding: 1rem;
    
     }
     .tarjeta-m { 

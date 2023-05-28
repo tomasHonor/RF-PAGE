@@ -301,7 +301,6 @@ footer a {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
-  background-color: gray;
 }
 .cont-copa .tit-copadavis img {
   width: 8%;
@@ -402,7 +401,7 @@ footer a {
 }
 
 .card-intro-m {
-  margin: 1rem auto;
+  margin: 2rem auto;
   background-color: #AA0000;
   box-shadow: 9px 9px 8px rgb(250, 194, 194), -9px -9px 8px rgb(253, 173, 173);
   animation: ani-intro 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -413,7 +412,7 @@ footer a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  padding: 4rem;
+  padding: 1rem;
 }
 
 .tarjeta-m {
@@ -744,5 +743,106 @@ footer a {
   }
   .cont-copa .tarjeta-copa img {
     height: 25vh;
+  }
+}
+@media screen and (max-width: 678px) {
+  .card-intro-m {
+    width: 90%;
+  }
+  .card-intro-m .perfecion-sec {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .card-intro-m .perfecion-sec .imagen-sec img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .tarjetas-m1000 {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding: 0rem;
+  }
+  .tarjeta-m {
+    background-color: rgb(251, 251, 251);
+    margin: 0.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+  }
+  .tarjeta-m:hover {
+    opacity: 1;
+    transform: scale(1.09);
+  }
+  .tarjeta-m img {
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    height: 28rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .tarjetas-m1000 {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+  .tarjeta-m:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .tarjeta-m img {
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    height: 28rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+@media screen and (max-width: 678px) {
+  .tarjetas-m1000 {
+    margin: 1rem;
+  }
+  .tarjeta-m img {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+@media screen and (max-width: 488px) {
+  .tarjetas-m1000 {
+    margin: 0.5rem;
+  }
+  .tarjeta-m img {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+@media screen and (max-width: 488px) {
+  .tarjetas-m1000 {
+    margin: 0.5rem;
+  }
+  .tarjeta-m img {
+    height: 12rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
 }/*# sourceMappingURL=estilos.css.map */
