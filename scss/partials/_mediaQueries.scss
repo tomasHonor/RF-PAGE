@@ -1,4 +1,5 @@
 /*-------------------- MEDIA QUERIES - INDEX--------------- */
+               // GRID CUADROS // -----------
 
 @media screen and (max-width: 1144px) {
     .collage .cuadros {
@@ -26,25 +27,10 @@
         display: none;
     }
 }
-@media screen and (max-width: 856px){
-    header .menu-titulo .titulo h1 {
-        font-size: 4rem;
-        padding: 0.5rem;
-        
-      }
-      header .logo img {
-        max-height: 9rem;
-      }
-}
+
+
 @media screen and (max-width: 612px){
-    header .menu-titulo .titulo h1 {
-        font-size: 3rem;
     
-        
-      }
-      header .logo img {
-        max-height: 8rem;
-      }
     .collage .cuadros .frase {
         padding: 1.5rem;
         h3{
@@ -54,17 +40,9 @@
 
    
 }
+
 @media screen and (max-width: 484px){
-    header .menu-titulo .titulo h1 {
-        font-size: 2.5rem;
-         
-        
-    
-        
-      } 
-      header .logo img {
-        max-height: 6.5rem;
-      }
+ 
       .collage .cuadros .frase {
         padding: 1rem;
         h3{
@@ -72,15 +50,66 @@
         }
     }
 }
-@media screen and (max-width: 400px){
-    header .menu-titulo .titulo h1 {
-        font-size: 1.8rem;
-         
-        
-    
-        
-      } 
+
+    // MEDIA QUERIES HEADER ------------------
+
+    @media screen and (max-width: 856px){
+        header .menu-titulo .titulo h1 {
+            font-size: 4rem;
+            padding: 0.5rem;
+            
+          }
+          header .logo img {
+            max-height: 9rem;
+          }
     }
+    @media screen and (max-width: 612px){
+        header .menu-titulo .titulo h1 {
+            font-size: 3.3rem;
+        
+            
+          }
+          header .logo img {
+            max-height: 10rem;
+          }
+        }
+        @media screen and (max-width: 584px) {
+            header .menu-titulo .titulo h1 {
+                font-size: 3.2rem;
+                margin-top: 0.5rem;
+                 
+                
+              } 
+              header .logo img {
+                max-height: 10rem;
+              }
+        }
+        @media screen and (max-width: 484px){
+            header .menu-titulo .titulo h1 {
+                font-size: 2.6rem;
+                margin-top: 1rem;
+                 
+                
+              } 
+              header .logo img {
+                max-height: 11rem;
+              }
+            }
+            @media screen and (max-width: 400px){
+                header .menu-titulo .titulo h1 {
+                    font-size: 2.3rem;
+                    margin-top: 1.5rem;
+                     
+                    
+                
+                    
+                  } 
+                }
+
+
+
+
+
 
 // -----------/* MEDIA QUERIES GRAND SLAM */---------------
 
@@ -191,6 +220,7 @@
     
 }
 //  ----  ///  GRAND SLAM /// CRONOLOGIA //// -----------
+
     .cronologia{
         .crono-t {
             display: flex;
@@ -243,14 +273,14 @@
 
 
 
-//                MEDIA QUERIES FOOTER  //////////////////////////////////
+     //--------MEDIA QUERIES FOOTER-------  ///
 @media screen and (max-width: 560px) {
     footer {
         font-size: 0.7rem;
     }
 
 }
-//  ------------------------- MEDIA QUERIES BIOGRAFIA ---------------------
+//  -------------/// MEDIA QUERIES BIOGRAFIA ///----------
 
 @media screen and (max-width: 1320px) {
 
@@ -395,6 +425,27 @@
                 }
 
   }
+
+  }
+  @media screen and (max-width: 442px){
+    .cont-copa{
+        .tit-copadavis {
+            img{
+                width: 12%;
+                
+            }
+            h2{
+                font-size: 1.8rem;
+            }
+            
+        }
+        .tarjeta-copa {
+            img {
+                height: 25vh;
+             
+            }
+        }
+    }
 
   }
   

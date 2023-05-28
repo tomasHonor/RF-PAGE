@@ -107,7 +107,7 @@ header .menu-titulo .titulo {
   padding: 0.5rem;
 }
 header .menu-titulo .titulo h1 {
-  font-size: 5.6rem;
+  font-size: 5.8rem;
   text-align: center;
   animation: animacionx 2s infinite;
 }
@@ -301,6 +301,7 @@ footer a {
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
+  background-color: gray;
 }
 .cont-copa .tit-copadavis img {
   width: 8%;
@@ -466,6 +467,22 @@ footer a {
     display: none;
   }
 }
+@media screen and (max-width: 612px) {
+  .collage .cuadros .frase {
+    padding: 1.5rem;
+  }
+  .collage .cuadros .frase h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 484px) {
+  .collage .cuadros .frase {
+    padding: 1rem;
+  }
+  .collage .cuadros .frase h3 {
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 856px) {
   header .menu-titulo .titulo h1 {
     font-size: 4rem;
@@ -477,35 +494,34 @@ footer a {
 }
 @media screen and (max-width: 612px) {
   header .menu-titulo .titulo h1 {
-    font-size: 3rem;
+    font-size: 3.3rem;
   }
   header .logo img {
-    max-height: 8rem;
+    max-height: 10rem;
   }
-  .collage .cuadros .frase {
-    padding: 1.5rem;
+}
+@media screen and (max-width: 584px) {
+  header .menu-titulo .titulo h1 {
+    font-size: 3.2rem;
+    margin-top: 0.5rem;
   }
-  .collage .cuadros .frase h3 {
-    font-size: 1rem;
+  header .logo img {
+    max-height: 10rem;
   }
 }
 @media screen and (max-width: 484px) {
   header .menu-titulo .titulo h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+    margin-top: 1rem;
   }
   header .logo img {
-    max-height: 6.5rem;
-  }
-  .collage .cuadros .frase {
-    padding: 1rem;
-  }
-  .collage .cuadros .frase h3 {
-    font-size: 0.8rem;
+    max-height: 11rem;
   }
 }
 @media screen and (max-width: 400px) {
   header .menu-titulo .titulo h1 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+    margin-top: 1.5rem;
   }
 }
 @media screen and (max-width: 1500px) {
@@ -717,5 +733,16 @@ footer a {
   .cont-copa .pie-c {
     font-size: 0.6rem;
     text-align: start;
+  }
+}
+@media screen and (max-width: 442px) {
+  .cont-copa .tit-copadavis img {
+    width: 12%;
+  }
+  .cont-copa .tit-copadavis h2 {
+    font-size: 1.8rem;
+  }
+  .cont-copa .tarjeta-copa img {
+    height: 25vh;
   }
 }/*# sourceMappingURL=estilos.css.map */
