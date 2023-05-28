@@ -221,24 +221,7 @@
 }
 //  ----  ///  GRAND SLAM /// CRONOLOGIA //// -----------
 
-    .cronologia{
-        .crono-t {
-            display: flex;
-        
-            flex-direction: column;
-            background-color: $colorPrincipal;
-            box-shadow: $sombra;
-            font-size: 0.9rem;
-            gap: 0.5rem;
-            .crono-img {
-                width: 35%;
-            }
-    
-          
-    
-        }
-       
-    }
+   
    
 
    
@@ -247,7 +230,6 @@
     .cronologia{
         .crono-t {
             display: flex;
-        
             flex-direction: column;
             background-color: $colorPrincipal;
             box-shadow: $sombra;
@@ -256,7 +238,7 @@
             flex-basis: 10%;
            align-items: center;
             .crono-img {
-                width: 55%;
+                width: 60%;
             }
     
           
@@ -264,6 +246,42 @@
         }
        
     }
+}
+@media screen and (max-width: 680px){
+    .cronologia{
+        width: 100%;
+        .crono-t {
+            width: 80%;
+    
+            .crono-img {
+                width: 80%;
+               
+            }
+    
+          
+    
+        }
+       
+    }
+
+}
+@media screen and (max-width: 422px){
+    .cronologia{
+        width: 100%;
+        .crono-t {
+            width: 80%;
+    
+            .crono-img {
+                width: 95%;
+               
+            }
+    
+          
+    
+        }
+       
+    }
+
 }
 
 

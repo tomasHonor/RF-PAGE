@@ -606,19 +606,6 @@ footer a {
     font-size: 1.3rem;
   }
 }
-@media screen and (max-width: 1500px) {
-  .cronologia .crono-t {
-    display: flex;
-    flex-direction: column;
-    background-color: #AA0000;
-    box-shadow: 9px 9px 8px rgb(250, 194, 194), -9px -9px 8px rgb(253, 173, 173);
-    font-size: 0.9rem;
-    gap: 0.5rem;
-  }
-  .cronologia .crono-t .crono-img {
-    width: 35%;
-  }
-}
 @media screen and (max-width: 1080px) {
   .cronologia .crono-t {
     display: flex;
@@ -631,7 +618,29 @@ footer a {
     align-items: center;
   }
   .cronologia .crono-t .crono-img {
-    width: 55%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .cronologia {
+    width: 100%;
+  }
+  .cronologia .crono-t {
+    width: 80%;
+  }
+  .cronologia .crono-t .crono-img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 422px) {
+  .cronologia {
+    width: 100%;
+  }
+  .cronologia .crono-t {
+    width: 80%;
+  }
+  .cronologia .crono-t .crono-img {
+    width: 95%;
   }
 }
 @media screen and (max-width: 560px) {
